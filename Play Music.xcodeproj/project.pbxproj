@@ -12,14 +12,6 @@
 		DC256FB91DE325DC00302559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC256FB71DE325DC00302559 /* Main.storyboard */; };
 		DC256FBB1DE325DC00302559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC256FBA1DE325DC00302559 /* Assets.xcassets */; };
 		DC256FBE1DE325DC00302559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC256FBC1DE325DC00302559 /* LaunchScreen.storyboard */; };
-		DC256FCE1DE3262300302559 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FC61DE3262300302559 /* duration.png */; };
-		DC256FCF1DE3262300302559 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FC71DE3262300302559 /* maxVolume.png */; };
-		DC256FD01DE3262300302559 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FC81DE3262300302559 /* miniVolume.png */; };
-		DC256FD11DE3262300302559 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC256FC91DE3262300302559 /* music.mp3 */; };
-		DC256FD21DE3262300302559 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FCA1DE3262300302559 /* pause.png */; };
-		DC256FD31DE3262300302559 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FCB1DE3262300302559 /* play.png */; };
-		DC256FD41DE3262300302559 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FCC1DE3262300302559 /* thumb.png */; };
-		DC256FD51DE3262300302559 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = DC256FCD1DE3262300302559 /* thumbHightLight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +22,6 @@
 		DC256FBA1DE325DC00302559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC256FBD1DE325DC00302559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC256FBF1DE325DC00302559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC256FC61DE3262300302559 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
-		DC256FC71DE3262300302559 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
-		DC256FC81DE3262300302559 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
-		DC256FC91DE3262300302559 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
-		DC256FCA1DE3262300302559 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
-		DC256FCB1DE3262300302559 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		DC256FCC1DE3262300302559 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
-		DC256FCD1DE3262300302559 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,24 +60,8 @@
 				DC256FBA1DE325DC00302559 /* Assets.xcassets */,
 				DC256FBC1DE325DC00302559 /* LaunchScreen.storyboard */,
 				DC256FBF1DE325DC00302559 /* Info.plist */,
-				DC256FC51DE3260F00302559 /* Resouce */,
 			);
 			path = "Play Music";
-			sourceTree = "<group>";
-		};
-		DC256FC51DE3260F00302559 /* Resouce */ = {
-			isa = PBXGroup;
-			children = (
-				DC256FC61DE3262300302559 /* duration.png */,
-				DC256FC71DE3262300302559 /* maxVolume.png */,
-				DC256FC81DE3262300302559 /* miniVolume.png */,
-				DC256FC91DE3262300302559 /* music.mp3 */,
-				DC256FCA1DE3262300302559 /* pause.png */,
-				DC256FCB1DE3262300302559 /* play.png */,
-				DC256FCC1DE3262300302559 /* thumb.png */,
-				DC256FCD1DE3262300302559 /* thumbHightLight.png */,
-			);
-			name = Resouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,16 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC256FD41DE3262300302559 /* thumb.png in Resources */,
 				DC256FBE1DE325DC00302559 /* LaunchScreen.storyboard in Resources */,
-				DC256FCE1DE3262300302559 /* duration.png in Resources */,
-				DC256FD31DE3262300302559 /* play.png in Resources */,
-				DC256FD21DE3262300302559 /* pause.png in Resources */,
-				DC256FD01DE3262300302559 /* miniVolume.png in Resources */,
-				DC256FD51DE3262300302559 /* thumbHightLight.png in Resources */,
-				DC256FCF1DE3262300302559 /* maxVolume.png in Resources */,
 				DC256FBB1DE325DC00302559 /* Assets.xcassets in Resources */,
-				DC256FD11DE3262300302559 /* music.mp3 in Resources */,
 				DC256FB91DE325DC00302559 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
